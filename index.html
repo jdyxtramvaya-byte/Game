@@ -157,7 +157,7 @@ window.addEventListener("DOMContentLoaded",function(){
   document.querySelectorAll('[data-action="next"]').forEach(function(e){e.addEventListener("click",nextQuestion)});
   document.querySelectorAll('[data-action="restart"]').forEach(function(e){e.addEventListener("click",restartGame)});
 });
-<script>
+</script><script>
 (function(){
  const key='masks_game_memory_v1';
  let memories=JSON.parse(localStorage.getItem(key)||'[]');
@@ -173,4 +173,4 @@ window.addEventListener("DOMContentLoaded",function(){
    s.onclick=()=>{window.saveGameMemory(i.value);i.value='';p.hidden=true};
  });
 })();
-</script></script></body></html>
+</script></body></html>
